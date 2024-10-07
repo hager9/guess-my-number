@@ -117,3 +117,21 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .left {
+    margin-top: 6rem;
+  }
+  h1 {
+    top: 54%;
+  }
+  .message {
+    margin: 2rem 0;
+  }
+  .again {
+    top: 1rem;
+  }
+}
